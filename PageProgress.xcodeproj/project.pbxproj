@@ -16,6 +16,8 @@
 		0FBFF1D82C6AC986005D8C39 /* PageProgressTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FBFF1D72C6AC986005D8C39 /* PageProgressTests.swift */; };
 		0FBFF1E22C6AC986005D8C39 /* PageProgressUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FBFF1E12C6AC986005D8C39 /* PageProgressUITests.swift */; };
 		0FBFF1E42C6AC986005D8C39 /* PageProgressUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FBFF1E32C6AC986005D8C39 /* PageProgressUITestsLaunchTests.swift */; };
+		0FBFF1F12C6AC9B4005D8C39 /* PTPageIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FBFF1F02C6AC9B4005D8C39 /* PTPageIndicator.swift */; };
+		0FBFF1F42C6ACC0F005D8C39 /* ProgressIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FBFF1F32C6ACC0F005D8C39 /* ProgressIndicatorView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		0FBFF1DD2C6AC986005D8C39 /* PageProgressUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PageProgressUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FBFF1E12C6AC986005D8C39 /* PageProgressUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageProgressUITests.swift; sourceTree = "<group>"; };
 		0FBFF1E32C6AC986005D8C39 /* PageProgressUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageProgressUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0FBFF1F02C6AC9B4005D8C39 /* PTPageIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PTPageIndicator.swift; sourceTree = "<group>"; };
+		0FBFF1F32C6ACC0F005D8C39 /* ProgressIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressIndicatorView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,8 @@
 				0FBFF1C02C6AC984005D8C39 /* AppDelegate.swift */,
 				0FBFF1C22C6AC984005D8C39 /* SceneDelegate.swift */,
 				0FBFF1C42C6AC984005D8C39 /* ViewController.swift */,
+				0FBFF1F32C6ACC0F005D8C39 /* ProgressIndicatorView.swift */,
+				0FBFF1F22C6AC9DD005D8C39 /* Page_Progress_Indicator */,
 				0FBFF1C62C6AC984005D8C39 /* Main.storyboard */,
 				0FBFF1C92C6AC986005D8C39 /* Assets.xcassets */,
 				0FBFF1CB2C6AC986005D8C39 /* LaunchScreen.storyboard */,
@@ -125,6 +131,14 @@
 				0FBFF1E32C6AC986005D8C39 /* PageProgressUITestsLaunchTests.swift */,
 			);
 			path = PageProgressUITests;
+			sourceTree = "<group>";
+		};
+		0FBFF1F22C6AC9DD005D8C39 /* Page_Progress_Indicator */ = {
+			isa = PBXGroup;
+			children = (
+				0FBFF1F02C6AC9B4005D8C39 /* PTPageIndicator.swift */,
+			);
+			path = Page_Progress_Indicator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,7 +273,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				0FBFF1C52C6AC984005D8C39 /* ViewController.swift in Sources */,
+				0FBFF1F42C6ACC0F005D8C39 /* ProgressIndicatorView.swift in Sources */,
 				0FBFF1C12C6AC984005D8C39 /* AppDelegate.swift in Sources */,
+				0FBFF1F12C6AC9B4005D8C39 /* PTPageIndicator.swift in Sources */,
 				0FBFF1C32C6AC984005D8C39 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
